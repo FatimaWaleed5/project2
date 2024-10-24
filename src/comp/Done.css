@@ -1,0 +1,34 @@
+/* Done.css */
+.done-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    color: #1f3257;
+  }
+  
+  .done-header {
+    font-size: 2.5rem;
+  }
+  
+  .done-message {
+    font-size: 1.2rem;
+    white-space: 50px;
+    margin-left: 10%;
+    
+    
+
+  }
+
+
+
+.done-image {
+    width: 200px;
+    height: auto;
+    margin-top: 20px; /* إضافة مسافة بين النص والصورة */
+    white-space: pre-line;
+}
+
+  

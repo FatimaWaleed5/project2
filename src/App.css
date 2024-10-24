@@ -1,0 +1,87 @@
+.profile-form1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+.profile-pic {
+  text-align: left;
+  width: 200px;
+  float: left; /* لضبط العنصر على اليسار */
+  margin-top: -150px; /* لجعله في الأعلى */
+  
+}
+
+.placeholder {
+  width: 150px;
+  height: 150px;
+  background-color: #1f3257;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  margin-top: -100px; 
+  
+ 
+}
+
+
+.initial {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.profile-pic img {
+  margin-top: -300px; 
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 10px;
+ 
+}
+
+.form-fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 700px;
+
+}
+
+
+.form-fields div {
+  width: 48%;
+  margin-bottom: 20px;
+  
+}
+
+input, select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #1f3257;
+  border-radius: 4px;
+  width: 100%;
+  
+  
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1f2f57;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  align-self: flex-end;
+  
+}
+
+button:hover {
+  background-color: #13233b;
+}
+

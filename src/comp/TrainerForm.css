@@ -1,0 +1,96 @@
+/* إعدادات خاصة بصفحة Trainer Form فقط */
+
+
+.trainer-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1f3257 30%, #f4f4f4 50%); /* لون خلفية الصفحة */
+}
+
+.trainer-form-container {
+    display: flex;
+    height: 80%;
+    width: 70%;
+    background: none; /* لا توجد خلفية */
+    justify-content: center; /* محاذاة العناصر في وسط الحاوية */
+    align-items: center; /* محاذاة العناصر في وسط الحاوية عمودياً */
+}
+
+.transparent-box {
+    display: flex;
+    flex-direction: row; /* ترتيب العناصر في صف */
+    width: 100%; /* اجعلها 100% من العرض */
+    height: 100%; /* اجعلها 100% من الارتفاع */
+    background-color: rgba(255, 255, 255, 0.1); /* خلفية شفافة */
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.form-section {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* محاذاة العناصر داخل القسم عمودياً */
+}
+
+.image-section {
+    width: 80%; /* هذا العرض للقسم، يمكنك تعديله حسب الحاجة */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.image-section img {
+    width: 100%; /* تعيين عرض الصورة كـ 100% من عرض القسم */
+    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+}
+
+/* تخصيص الأزرار */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+}
+
+.submit-btn {
+    background-color: #1f3b6b;
+}
+
+.submit-btn:hover,
+.upload-btn:hover {
+    background-color: #162d54;
+}
+
+/* تخصيص النصوص */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgba(0, 0, 0, 0.789);
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+
+textarea {
+    height: 100px;
+}
